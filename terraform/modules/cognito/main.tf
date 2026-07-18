@@ -1,4 +1,4 @@
-﻿resource "aws_cognito_user_pool" "users" {
+resource "aws_cognito_user_pool" "users" {
   name                = "CloudBoxUsers"
   username_attributes = ["email"]
 
@@ -14,7 +14,7 @@
 }
 
 resource "aws_cognito_user_pool_client" "client" {
-  name             = "CloudBoxClient"
-  user_pool_id     = aws_cognito_user_pool.users.id
-  generate_secret  = false
+  name            = "CloudBoxClient"
+  user_pool_id    = aws_cognito_user_pool.users.id
+  generate_secret = false
 }

@@ -1,4 +1,4 @@
-﻿resource "aws_api_gateway_rest_api" "files_api" {
+resource "aws_api_gateway_rest_api" "files_api" {
   name        = "FilesAPI"
   description = "API REST para gestión de archivos"
 }

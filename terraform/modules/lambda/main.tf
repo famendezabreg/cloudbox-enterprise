@@ -1,4 +1,4 @@
-﻿data "archive_file" "create_file_zip" {
+data "archive_file" "create_file_zip" {
   type        = "zip"
   source_dir  = "${path.root}/lambda/createFile"
   output_path = "${path.root}/lambda/createFile.zip"

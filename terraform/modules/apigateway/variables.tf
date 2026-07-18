@@ -1,4 +1,4 @@
-﻿variable "user_pool_arn" {
+variable "user_pool_arn" {
   type = string
 }
 

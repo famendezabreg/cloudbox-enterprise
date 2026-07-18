@@ -1,4 +1,4 @@
-﻿module "dynamodb" {
+module "dynamodb" {
   source = "./modules/dynamodb"
 }
 
