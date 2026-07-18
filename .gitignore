@@ -1,0 +1,32 @@
+# Terraform
+**/.terraform/
+*.tfstate
+*.tfstate.*
+*.tfstate.backup
+.terraform.lock.hcl
+crash.log
+*.tfvars
+
+# Node
+node_modules/
+dist/
+package-lock.json
+
+# Env
+.env
+.env.production
+.env.local
+
+# Lambda zips
+*.zip
+
+# AWS
+auth_result.json
+payload.json
+response*.json
+test-body.json
+test_post.json
+
+# OS
+.DS_Store
+Thumbs.db
