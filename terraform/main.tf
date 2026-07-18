@@ -31,3 +31,5 @@ module "apigateway" {
   delete_file_function_name    = module.lambda.delete_file_function_name
 }
 
+
+# Laboratorio 10 CI/CD
