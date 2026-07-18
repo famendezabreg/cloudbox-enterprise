@@ -1,11 +1,10 @@
-# Terraform
+﻿# Terraform
 **/.terraform/
 *.tfstate
 *.tfstate.*
 *.tfstate.backup
 .terraform.lock.hcl
 crash.log
-*.tfvars
 
 # Node
 node_modules/
